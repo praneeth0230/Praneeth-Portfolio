@@ -1,0 +1,99 @@
+/* Common */
+
+body {
+    font-family: 'monospace', 'sans-serif';
+}
+
+.font-primary {
+    color: #00abae /* change color */
+}
+
+.title-icon {
+    font-size: 20px; /*adjustable*/
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+}
+
+/* About Section */
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center
+}
+
+#about img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 20px;
+}
+
+#about .vocation {
+    font-size: 18px;
+    color:#A8A8AB;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 14px;
+    color: #00ABAE; /* change color */
+    margin-bottom: 10px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+/* Projects */
+
+#projects {
+    margin: 60px auto; 
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card {
+    width: 100%;
+}
+
+#projects .card-title {
+    font-weight: bold;
+}
+
+video{
+    width : 400px;
+    height: 300px;
+}
